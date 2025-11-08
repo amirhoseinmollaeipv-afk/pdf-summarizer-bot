@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pdf-summarizer-bot"
+version = "0.1.0"
+description = "Telegram bot for summarizing PDF files using OpenAI"
+authors = ["Amirhosein <your-email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+python-telegram-bot = "20.3"
+openai = "1.51.0"
+pdfminer.six = "20231228"
+requests = "2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
